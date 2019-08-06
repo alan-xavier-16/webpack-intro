@@ -8,7 +8,7 @@ export class ComponentService {
   getInputs() {
     return [this.numberOneInput.value, this.numberTwoInput.value];
   }
-  getResult(str) {
+  setResult(str) {
     this.resultDiv.innerText = str;
   }
   onClick(cb) {
